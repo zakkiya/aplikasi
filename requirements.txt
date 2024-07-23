@@ -10,3 +10,4 @@ seaborn==0.13.0
 indonlp==0.3.4
 scikit-learn==1.4.2
 python-dateutil==2.9.0.post0
+regex==2024.5.15
