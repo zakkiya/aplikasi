@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import re
+import nltk
+nltk.download('averaged_perceptron_tagger')
 from nltk.tokenize import word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from indoNLP.preprocessing import replace_slang
